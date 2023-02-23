@@ -10,3 +10,4 @@ if len(original) > 0 and original.isalpha():
 
 else:
  print 'empty'
+# this code should take a user-typed word and turn it into Pig Latin
