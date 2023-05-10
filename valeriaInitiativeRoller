@@ -1,0 +1,12 @@
+#a dnd die roller for my slow character, Valeria (+0 DEX)
+
+import random
+        
+while True:
+    input("Press enter to roll a d20")
+    d20 = random.randint(1,20)
+    print(d20)
+    if d20 == 1:
+        print("CRIT FAIL: PREPARE FOR THE WORST!")
+    elif d20 == 20:
+        print("CRIT SUCCESS: PREPARE FOR TROUBLE AND MAKE IT DOUBLE!")
